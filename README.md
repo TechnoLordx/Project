@@ -1,2 +1,2 @@
 # Project
-Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogom el készíteni. 
+Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el készíteni. 
