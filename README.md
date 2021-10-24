@@ -21,3 +21,8 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 * Előreláthatólag a login systeam fog következni, s annak oldala, illetve a főoldalt tartalommal való megtöltése 
 * (de ha már a login meg van én azzal is megelékszem) (͠≖ ͜ʖ͠≖)👌
 
+<br>
+
+## 2021.10.24
+* Elkészűlt a login system.
+* Ez magába foglalja a login register oldalakat, illetve elkészűl a még nem végleges css is hozzá.
