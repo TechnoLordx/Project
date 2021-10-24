@@ -25,4 +25,4 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 
 ## 2021.10.24
 * Elkészűlt a login system.
-* Ez magába foglalja a login register oldalakat, illetve elkészűl a még nem végleges css is hozzá.
+* Ez magába foglalja a login, register oldalakat, illetve elkészűl a még nem végleges css is hozzá.
