@@ -17,7 +17,7 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 <br>
 
 ## 2021.10.17
-* Zh -ra készülés, illetve az idő és "human resources" hinya miatt átmenetileg szünetel a fejlesztés.
+* Zh -ra készülés, illetve az idő és "human resources" hiánya miatt átmenetileg szünetel a fejlesztés.
 * Előreláthatólag a login systeam fog következni, s annak oldala, illetve a főoldalt tartalommal való megtöltése 
 * (de ha már a login meg van én azzal is megelékszem) (͠≖ ͜ʖ͠≖)👌
 
