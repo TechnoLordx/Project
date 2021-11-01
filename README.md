@@ -1,5 +1,5 @@
 # Project
-Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el készíteni. Lesz egy login systeam, illetve az weboldal fő eleme egy FÓRUM lesz.
+Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el készíteni.
 ***
 
 ## 2021.10.03
