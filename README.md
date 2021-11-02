@@ -27,3 +27,12 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 * Elkészűlt a login system.
 * Ez magába foglalja a login, register oldalakat, illetve elkészűl a még nem végleges css is hozzá.
 * Következö lépések kisebb bug fix -ek és belekezdek a forumba vagy a tartami részébe a fő oldalon. 
+
+<br> 
+
+## 2021.11.02
+* Bug fix-ek készen (login) pl: a froum oldalt már csak felhasználók érik el.
+* Logout elkészítése.
+* Próbák a social login-el = kudarc
+* Téma a forum-nak meg van (Valorant) ennek megfelelően ki lesz alakítva az oldal, ahol lehet egymással kommunikálni/véleményt megosztani az adott témákról
+* Következö lépés a social login megoldása legalább eggyel. ( valószinüleg Google vagy elképzelhető az Apple id-val )
