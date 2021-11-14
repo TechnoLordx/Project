@@ -36,3 +36,10 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 * Próbák a social login-el = kudarc
 * Téma a forum-nak meg van (Valorant) ennek megfelelően ki lesz alakítva az oldal, ahol lehet egymással kommunikálni/véleményt megosztani az adott témákról
 * Következö lépés a social login megoldása legalább eggyel. ( valószinüleg Google vagy elképzelhető az Apple id-val )
+
+<br>
+
+## 2021.11.14
+* Az index oldaláról már csak pár kép hiányzik és készen van.
+* betegség miatt csak ennyire futotta
+* jövő hétre a social log in és a forum van kitűzve mint cél.
