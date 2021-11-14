@@ -387,7 +387,7 @@ body{
     box-shadow: 5px 0px 12px #0c0c0c;
 }
 
-#Forum_title{
+#title{
     font-size: 64px;
     padding: 20px 20px;
     margin: 10px;
@@ -432,22 +432,6 @@ body{
     background-color: #0c0c0c;
 }
 
-#About_title{
-    font-size: 64px;
-    padding: 0px 20px 20px 20px;
-    margin: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    background-image: linear-gradient(to top, #311a7c 0%,#7e5b9e 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    text-decoration: none;
-}
-
 #About_disc{
     padding: 20px;
     font-size: 20px;
@@ -468,9 +452,72 @@ body{
     width: 50em;
     min-height: 35em;
     margin: 20px 10px 10px 20px;
-    
 }
 
+/*wiki*/
+
+.wiki__page{
+    position: relative;
+    display: flex;
+    width: 100%; 
+    min-height: 650px;
+    background-color: #0c0c0c;
+}
+
+.discript{
+    position: relative;
+    width: 100%;
+    min-height: 35em;
+    margin: 10px;
+}
+
+.disc{
+    padding: 20px;
+    font-size: 20px;
+    color: #583975;
+}
+
+.deatels{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    min-height: 650px;
+    background-color: #0c0c0c;
+}
+
+table{
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+
+tr>th{
+    font-size: 32px;
+    color: #fff;
+    padding: 10px;
+}
+
+tr>td{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    
+    border: 30px solid #0c0c0c;
+}
+
+.bio{
+    width: 450px;
+    height: 50px;
+}
+
+.abilities{
+    width: 450px;
+    height: 50px;
+}
+/* wiki end */
 
 /* width */
 ::-webkit-scrollbar {
