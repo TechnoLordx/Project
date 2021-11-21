@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
 		if (!$result->num_rows > 0) {
 			$usernameTaken = 1;
 		} else {
-			echo "<script>alert('Username Already Exists.')</script>";
+			echo "<script>alert('Username Already Taken.')</script>";
 		}
 
 		$sqli = "SELECT * FROM users WHERE email='$email'";
@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
         if (!$result->num_rows > 0) {
 			$emailTaken = 1;
 		} else {
-			echo "<script>alert('Email Already Exists.')</script>";
+			echo "<script>alert('Email Already Taken.')</script>";
 		}
 
         if($usernameTaken == 1 && $emailTaken == 1){
@@ -95,4 +95,10 @@ if (isset($_POST['submit'])) {
         </form>
     </div>
 </body>
+    <script>
+        if(window.history.replaceState) 
+        {
+            window.history.replaceState(null, null, window.location.href);
+        }
+    </script>
 </html>

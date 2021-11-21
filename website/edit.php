@@ -52,21 +52,15 @@ if(!isset($_SESSION['username'])){
          <div class="content2"> 
             <?php
                 echo"<form class='mid' method='POST' action='".editComments($connection)."'>
-                    <input type='hidden' name='username' value='".$_SESSION['username']."'>
-                    <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-                    <textarea class='commnet__text' name='message'> </textarea> <br>
-                    <button class='comment__btn' type='submit' name='saveComment'> Save </button>
+                    <input type='hidden' name='username' value='".$_POST['username']."'>
+                    <input type='hidden' name='date' value='".$_POST['date']."'>
+                    <textarea class='commnet__text' name='message'> ".$_POST['message']." </textarea> <br>
+                    <button class='cancel__btn' type='submit' name='back'> Cancel </button>
+                    <button class='comment__btn' type='submit' name='saveComment'> Edit </button>
                 </form>";
-
-                getComments($connection);
             ?>
         </div>
     </div>
 </body>
-    <script>
-            if(window.history.replaceState) 
-            {
-                window.history.replaceState(null, null, window.location.href);
-            }
-    </script>
+
 </html>
