@@ -42,3 +42,8 @@ Ez egy weboldal lesz, amit HTML, CSS és JavaScript segítségével fogok el ké
 ## 2021.11.14
 * Az index oldaláról már csak pár kép hiányzik és készen van.
 * jövő hétre a social log in és a forum van kitűzve mint cél.
+
+## 2021.11.21
+* Elkészűlt a wiki page.
+* A froum már mükdik és lehet megjegyzéseket írni.
+* Ezkelnek a style elkészítése.
