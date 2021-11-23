@@ -382,6 +382,16 @@ body{
     width: 100%;
 }
 
+.from__container{
+    position: relative;
+    display: flex;
+    width: 100%; 
+    min-height: 750px;
+    border-radius: 32px;
+    box-shadow: 5px 0px 12px #0c0c0c;
+}
+
+
 #title{
     font-size: 64px;
     padding: 20px 20px;
@@ -628,10 +638,16 @@ tr>td>img{
 
 /* commnet start */
 
-.from__container{
+
+.content2{
+  position: relative;
+}
+
+
+.forum__container{
     position: relative;
     display: flex;
-    width: 100%; 
+    width: 100%;
     min-height: 250px;
     justify-content: center;
     background-color: #442264;
@@ -639,14 +655,7 @@ tr>td>img{
     border-radius: 32px;
     box-shadow: 5px 0px 12px #0c0c0c;
 }
-/*
-.content2{
-  position: relative;
-    width: 50em;
-    min-height: 35em;
-    margin: 20px 10px 10px 20px;
-}
-*/
+
 .mid{
     position: relative;
     display: block;
@@ -664,6 +673,17 @@ tr>td>img{
     resize: none;
     border: 3px solid #030303;
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 450px){
+    .commnet__text{
+        width: 350px;
+        }
+
+    .comment__btn{
+        transform: translateX(-50px);
+    }
+
 }
 
 .comment__btn{
@@ -695,9 +715,15 @@ tr>td>img{
     border-radius: 8px;
 }
 
-.comment__box p{
+.highlight{
     width: fit-content;
+    border-radius: 8px;
     background-color: yellow;
+}
+
+.none{
+    width: fit-content;
+    background-color: #fff;
 }
 
 .edit__btn{
@@ -734,6 +760,17 @@ tr>td>img{
 .cancel__btn:hover{
     background-color: #7e5b9e;
     box-shadow: 0px 0px 10px #7e5b9e
+}
+
+.e_egg2{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.e_egg2:hover{
+    color: #583975;
 }
 
 /* commnet end */

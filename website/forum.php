@@ -48,10 +48,10 @@ if(!isset($_SESSION['username'])){
     </nav>
     <script type="text/javascript" src="javascript/do.js"></script>
 
-    <div class="from__container">
+    <div class="forum__container">
          <div class="content2"> 
             <?php
-                echo"<form class='mid' method='POST' action='".editComments($connection)."'>
+                echo"<form class='mid' method='POST' action='".setComments($connection)."'>
                     <input type='hidden' name='username' value='".$_SESSION['username']."'>
                     <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
                     <textarea class='commnet__text' name='message'> </textarea> <br>
@@ -62,6 +62,8 @@ if(!isset($_SESSION['username'])){
             ?>
         </div>
     </div>
+
+    <p class="e_egg2"> "To infinity, and beyond! 2/3" </p>
 </body>
     <script>
             if(window.history.replaceState) 
