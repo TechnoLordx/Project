@@ -63,7 +63,7 @@ if(!isset($_SESSION['username'])){
         </div>
     </div>
 
-    <p class="e_egg2"> "To infinity, and beyond! 2/3" </p>
+    <p class="e_egg2"> "To infinity, and beyond! 2/2" </p>
 </body>
     <script>
             if(window.history.replaceState) 

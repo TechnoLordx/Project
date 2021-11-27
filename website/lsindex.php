@@ -4,9 +4,7 @@ include 'config.php';
 session_start();
 error_reporting(0);
 
-if(isset($_SESSION['username'])){
-    header("Location: forum.php");
-}
+
 
 if(isset($_POST['submit'])) {
     $email = $_POST['email'];
@@ -22,11 +20,8 @@ if(isset($_POST['submit'])) {
     }else{
 
         echo "<script>alert('Whoops... Email or Password is wrong!')</script>";
-   
     }
-
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +53,7 @@ if(isset($_POST['submit'])) {
             <div class="text">
                 <p class="register">If you don't have an account. </p> <a class="switch" href="register.php">Register Here</a>
             </div>        
-        </form>
+        </form>     
     </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-/* "$connection" needed for the connection of database, otherwise we can't make a connection to there*/
+// "$connection" needed for the connection of database, otherwise we can't make a connection to there
 function setComments($connection) 
 {
     if(isset($_POST['saveComment'])){
@@ -17,7 +17,7 @@ function getComments($connection)
 {
     $sql = "SELECT * FROM comment ORDER BY date DESC";
     $result = mysqli_query($connection, $sql);
-    while($row = mysqli_fetch_assoc($result)) /* 3. all row is here from database and row is now an array[] */
+    while($row = mysqli_fetch_assoc($result)) // 3. all row is here from database and row is now an array[] 
     { 
             echo "<div class='comment__box'>";
 ?>

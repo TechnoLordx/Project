@@ -394,7 +394,7 @@ body{
 
 #title{
     font-size: 64px;
-    padding: 20px 20px;
+    padding: 20px 60px;
     margin: 10px;
     text-decoration: none;
     cursor: pointer;
@@ -406,6 +406,10 @@ body{
     -moz-text-fill-color: transparent;
     display: flex;
     text-decoration: none;
+}
+
+#title:hover{
+    text-shadow: 0px 0px 5px #7e5b9e;
 }
 
 #Forum_disc{
