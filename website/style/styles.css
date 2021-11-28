@@ -393,6 +393,8 @@ body{
 
 
 #title{
+    position: relative;
+    left: 18%;
     font-size: 64px;
     padding: 20px 60px;
     margin: 10px;
@@ -413,6 +415,8 @@ body{
 }
 
 #Forum_disc{
+    position: relative;
+    left: 25%;
     padding: 20px;
     font-size: 20px;
     color: #583975;
@@ -442,6 +446,8 @@ body{
 }
 
 #About_disc{
+    position: relative;
+    left: 25%;
     padding: 20px;
     font-size: 20px;
     color: #583975;
@@ -449,6 +455,8 @@ body{
 
 .lft_disc{
     text-align: right;
+    position: relative;
+    left: 22%;
 }
 
 .e_egg:hover{
